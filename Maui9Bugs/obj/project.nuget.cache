@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Cig5m31Rdr8=",
+  "dgSpecHash": "psE+pyx1osY=",
   "success": true,
   "projectFilePath": "C:\\Users\\spara\\repos\\Maui9Bugs\\Maui9Bugs\\Maui9Bugs.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\spara\\.nuget\\packages\\awssdk.core\\3.5.0\\awssdk.core.3.5.0.nupkg.sha512",
+    "C:\\Users\\spara\\.nuget\\packages\\awssdk.s3\\3.5.0\\awssdk.s3.3.5.0.nupkg.sha512",
     "C:\\Users\\spara\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
     "C:\\Users\\spara\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",
     "C:\\Users\\spara\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512",

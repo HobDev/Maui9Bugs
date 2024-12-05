@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maui9Bugs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+05f04d1b2d5302d836d6590a17d77453e148b15c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maui9Bugs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maui9Bugs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net9.0-android35.0": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -2549,6 +2578,35 @@
       }
     },
     "net9.0-android35.0/android-arm64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -5096,6 +5154,35 @@
       }
     },
     "net9.0-android35.0/android-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -7643,6 +7730,35 @@
       }
     },
     "net9.0-android35.0/iossimulator-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -10190,6 +10306,35 @@
       }
     },
     "net9.0-android35.0/maccatalyst-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -12737,6 +12882,35 @@
       }
     },
     "net9.0-android35.0/win10-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -15284,6 +15458,35 @@
       }
     },
     "net9.0-ios18.0": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -15821,6 +16024,35 @@
       }
     },
     "net9.0-ios18.0/android-arm64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -16358,6 +16590,35 @@
       }
     },
     "net9.0-ios18.0/android-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -16895,6 +17156,35 @@
       }
     },
     "net9.0-ios18.0/iossimulator-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -17432,6 +17722,35 @@
       }
     },
     "net9.0-ios18.0/maccatalyst-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -17969,6 +18288,35 @@
       }
     },
     "net9.0-ios18.0/win10-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -18506,6 +18854,35 @@
       }
     },
     "net9.0-maccatalyst18.0": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -19133,6 +19510,35 @@
       }
     },
     "net9.0-maccatalyst18.0/android-arm64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -19677,6 +20083,35 @@
       }
     },
     "net9.0-maccatalyst18.0/android-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -20221,6 +20656,35 @@
       }
     },
     "net9.0-maccatalyst18.0/iossimulator-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -20762,6 +21226,35 @@
       }
     },
     "net9.0-maccatalyst18.0/maccatalyst-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -21306,6 +21799,35 @@
       }
     },
     "net9.0-maccatalyst18.0/win10-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -21847,6 +22369,35 @@
       }
     },
     "net9.0-windows10.0.19041": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -22706,6 +23257,35 @@
       }
     },
     "net9.0-windows10.0.19041/android-arm64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -23434,6 +24014,35 @@
       }
     },
     "net9.0-windows10.0.19041/android-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -24162,6 +24771,35 @@
       }
     },
     "net9.0-windows10.0.19041/iossimulator-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -24887,6 +25525,35 @@
       }
     },
     "net9.0-windows10.0.19041/maccatalyst-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -25615,6 +26282,35 @@
       }
     },
     "net9.0-windows10.0.19041/win10-x64": {
+      "AWSSDK.Core/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.1": {
         "type": "package",
         "dependencies": {
@@ -26353,6 +27049,64 @@
     }
   },
   "libraries": {
+    "AWSSDK.Core/3.5.0": {
+      "sha512": "bC5slbW3f1QgYlJK/I/zDUlixHq8YzktTwreJHwoOCpnRFB/IHV4EIgdEGwQnWOneJwRfwq4ZB0OhlrM3aT2pw==",
+      "type": "package",
+      "path": "awssdk.core/3.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.5.0.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.5.0": {
+      "sha512": "CLlXO0FGY8CnzBJGyVrLAi4rTDYaNUzbitEZ6B7qvnVRUOG8HnWS3KU7nk/wm6fJVTpa+CSHoittUzHfZbY2+g==",
+      "type": "package",
+      "path": "awssdk.s3/3.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.5.0.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard1.3/AWSSDK.S3.dll",
+        "lib/netstandard1.3/AWSSDK.S3.pdb",
+        "lib/netstandard1.3/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "CommunityToolkit.Maui/9.1.1": {
       "sha512": "vDFIMhs/NRKEaHrrxq3AR3qEnfc0L6nno3/ZEFRUctDdwcYKNfmx8aof1lj8++dX+56c282SLHyuCnN6eH2Mpg==",
       "type": "package",
@@ -30589,6 +31343,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-android35.0": [
+      "AWSSDK.S3 >= 3.5.0",
       "CommunityToolkit.Maui >= 9.1.1",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 9.0.0",
@@ -30599,6 +31354,7 @@
       "Syncfusion.Maui.Toolkit >= 1.0.2"
     ],
     "net9.0-ios18.0": [
+      "AWSSDK.S3 >= 3.5.0",
       "CommunityToolkit.Maui >= 9.1.1",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 9.0.0",
@@ -30609,6 +31365,7 @@
       "Syncfusion.Maui.Toolkit >= 1.0.2"
     ],
     "net9.0-maccatalyst18.0": [
+      "AWSSDK.S3 >= 3.5.0",
       "CommunityToolkit.Maui >= 9.1.1",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 9.0.0",
@@ -30619,6 +31376,7 @@
       "Syncfusion.Maui.Toolkit >= 1.0.2"
     ],
     "net9.0-windows10.0.19041": [
+      "AWSSDK.S3 >= 3.5.0",
       "CommunityToolkit.Maui >= 9.1.1",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 9.0.0",
@@ -30688,6 +31446,10 @@
       "net9.0-android35.0": {
         "targetAlias": "net9.0-android",
         "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.1, )"
@@ -30747,6 +31509,10 @@
       "net9.0-ios18.0": {
         "targetAlias": "net9.0-ios",
         "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.1, )"
@@ -30806,6 +31572,10 @@
       "net9.0-maccatalyst18.0": {
         "targetAlias": "net9.0-maccatalyst",
         "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.1, )"
@@ -30866,6 +31636,10 @@
       "net9.0-windows10.0.19041": {
         "targetAlias": "net9.0-windows10.0.19041.0",
         "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.1, )"
