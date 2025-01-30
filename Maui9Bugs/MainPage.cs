@@ -5,22 +5,31 @@ public class MainPage : ContentPage
 	public MainPage()
 	{
 
-		MenuBarItem account = new MenuBarItem { Text = "Settings" };
-
-            MenuFlyoutItem changePasswordFlyoutItem = new MenuFlyoutItem { Text = "Profile" };
-          
-
-            MenuFlyoutItem couponMenuFlyout = new MenuFlyoutItem { Text = "Change Password" };
-           
-
-            account.Add(changePasswordFlyoutItem);
-            account.Add(couponMenuFlyout);
-            this.MenuBarItems.Add(account);
 		Content = new VerticalStackLayout
 		{
-			Children = {
-				new Label { HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center, Text = "Welcome to .NET MAUI!"
-				}
+			Padding=20,
+			Spacing = 20,
+			Children = 
+			{
+				new Label 
+				{ 
+					HorizontalOptions = LayoutOptions.Center, 
+					VerticalOptions = LayoutOptions.Center, 
+					FontSize = 30,	
+					Text = "Select favourite sports from the picker below"
+				},
+
+				 new Picker
+				 {
+					FontSize=20, 
+					HorizontalOptions = LayoutOptions.Center, 
+					VerticalOptions = LayoutOptions.Center, 
+					WidthRequest=400,
+					Title="Select sports",
+					 ItemsSource= new List<string>{"Badminton","Football","Cricket","Chess","Swimming"},
+					 SelectedIndex=0	
+					  }
+
 			}
 		};
 	}
